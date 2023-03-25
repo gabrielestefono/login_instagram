@@ -6,18 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Instagram</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <select name="" id="">
-            <option value="pt-br">Português (Brasil)</option>
-            <option value="en">English</option>
-        </select>
-        <img src="assets/img/icons/logo.png" alt="">
+    <header class="header">
+        <div class="header__select">
+            <select name="" class="header__select--selection">
+                <option value="pt-br" class="header__select--selection_option">Português (Brasil)</option>
+                <option value="en" class="header__select--selection_option">English <div class="header__select--selection_option-icon"></div></option>
+            </select>
+        </div>
+            <img src="assets/img/icons/logo.png" alt="logo do instagram" class="header__logo">
     </header>
-    <section>
-        <div>
-            <button><img src="assets/img/icons/square-facebook.svg"> Continuar com Facebook</button>
+    <section class="content">
+        <div class="content__">
+            <button class="content__facebooklogin"><img src="assets/img/icons/square-facebook.svg" class="content__facebooklogin--icon"> Continuar com Facebook</button>
         </div>
         <div>
             <hr>

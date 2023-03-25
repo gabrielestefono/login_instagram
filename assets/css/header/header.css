@@ -1,0 +1,34 @@
+.header{
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.header__select{
+    width: 94vw;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.header__select--selection{
+    border: none;
+    width: 100%;
+    font-size: 12px;
+    font-family: Arial;
+    color: #858585;
+    text-align: center;
+    appearance: none;
+    background-color: #fff;
+}
+
+.header__select--selection_option{
+    color: #000;
+}
+
+.header__logo{
+    margin: 0 auto;
+    display: block;
+    margin-top: 3.2rem;
+    width: 11rem;
+    height: 3.5rem;
+}
