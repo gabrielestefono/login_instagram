@@ -1,0 +1,126 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__facebooklogin{
+}
+
+.content__facebooklogin--button{
+    background-color: #0095f6;
+    width: 60vw;
+    height: 2.1rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 13px;
+    justify-content: center;
+}
+
+.content__facebooklogin--button_icon{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: .5rem;
+}
+
+.content__separate{
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+    margin-top: 1.5rem;
+}
+
+.content__separate--hr{
+    width: 38%;
+    border-color: rgba(219, 219, 219, 0.3);
+}
+
+.content__separate--or{
+    color: #858585;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.form{
+    margin-top: 1rem;
+}
+
+.form__area{
+}
+
+.form__area--box{
+    background-color: #fafafa;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    width: 59vw;
+    display: flex;
+}
+
+div.form__area--box:nth-child(2){
+    margin-top: .5rem;
+}
+
+.form__area--box_legend{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__area--box_legend-title{
+    padding: .2rem 0 0 0.5rem;
+    font-size: 11px;
+    color: #8e8e8e;
+}
+
+.form__area--box_legend-input{
+    padding: .2rem 0.5rem;
+    border: none;
+    background-color: #fafafa;
+}
+
+.division{
+    width: calc(70% - 2rem);
+}
+
+.form__area--box_legend-input:focus{
+    outline: none;
+}
+
+.form__area--box_legend-button{
+    background-color: #fafafa;
+    line-height: 2rem;
+    padding: 0 .5rem;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.form__forgotPassword{
+    margin-top: 1rem;
+    width: 60vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__forgotPassword--link{
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.form__login{}
+
+.form__login--submit{
+    width: 60vw;
+    border: none;
+    background-color: #0095f6;
+    padding: .5rem 1rem;
+    color: white;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
