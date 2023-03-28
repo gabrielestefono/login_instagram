@@ -9,7 +9,8 @@
 
 .content__facebooklogin--button{
     background-color: #0095f6;
-    width: 60vw;
+    width: 100%;
+    padding: 0 1rem;
     height: 2.1rem;
     border: none;
     border-radius: 8px;
@@ -51,13 +52,16 @@
 }
 
 .form__area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form__area--box{
     background-color: #fafafa;
     border-radius: 3px;
     border: 1px solid #dbdbdb;
-    width: 59vw;
+    width: 90%;
     display: flex;
 }
 
@@ -77,17 +81,24 @@ div.form__area--box:nth-child(2){
     color: #8e8e8e;
 }
 
-.form__area--box_legend-input{
+.form__area--box_legend-input-1{
+    padding: .2rem 0.5rem;
+    border: none;
+    background-color: #fafafa;
+    width: 100%;
+}
+
+.form__area--box_legend-input-2{
     padding: .2rem 0.5rem;
     border: none;
     background-color: #fafafa;
 }
 
 .division{
-    width: calc(70% - 2rem);
+    width: calc(100% - 2rem);
 }
 
-.form__area--box_legend-input:focus{
+.form__area--box_legend-input-1:focus,.form__area--box_legend-input-2:focus{
     outline: none;
 }
 
@@ -103,7 +114,7 @@ div.form__area--box:nth-child(2){
 
 .form__forgotPassword{
     margin-top: 1rem;
-    width: 60vw;
+    width: 90%;
     display: flex;
     justify-content: flex-end;
 }
@@ -113,10 +124,12 @@ div.form__area--box:nth-child(2){
     text-decoration: none;
 }
 
-.form__login{}
+.form__login{
+    width: 90%;
+}
 
 .form__login--submit{
-    width: 60vw;
+    width: 100%;
     border: none;
     background-color: #0095f6;
     padding: .5rem 1rem;
@@ -140,7 +153,7 @@ div.form__area--box:nth-child(2){
 }
 
 .sublogo{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 7.3rem;

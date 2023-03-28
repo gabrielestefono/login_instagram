@@ -1,0 +1,22 @@
+.footer{}
+
+.footer__box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 91.5%;
+    height: 13.8%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.footer__box--item{
+    margin-top: .7rem;
+}
+
+.footer__box--link{
+    font-size: 12px;
+    padding: .7rem;
+    color: #8e8e8e;
+    text-decoration: none;
+}

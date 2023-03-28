@@ -1,3 +1,10 @@
 @import url(reset.css);
 @import url(header/header.css);
 @import url(content/content.css);
+@import url(footer/footer.css);
+
+main{
+    max-width: 375px;
+    max-width: 667px;
+    margin: 0 auto;
+}
