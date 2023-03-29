@@ -5,6 +5,9 @@
 
 main{
     max-width: 375px;
-    max-width: 667px;
+    max-height: 667px;
     margin: 0 auto;
+}
+
+@media screen and (min-width: 375px){
 }

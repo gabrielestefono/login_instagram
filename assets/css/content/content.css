@@ -1,42 +1,43 @@
+/* Login com facebook */
+
 .content{
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .content__facebooklogin--button{
+    align-items: center;
     background-color: #0095f6;
-    width: 100%;
-    padding: 0 1rem;
-    height: 2.1rem;
     border: none;
     border-radius: 8px;
     color: white;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    margin-top: 3rem;
-    font-size: 13px;
-    justify-content: center;
     cursor: pointer;
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    height: 2.1rem;
+    justify-content: center;
+    margin-top: 3rem;
+    padding: 0 1rem;
 }
 
 .content__facebooklogin--button_icon{
-    width: 1.2rem;
     height: 1.2rem;
     margin-right: .5rem;
+    width: 1.2rem;
 }
 
 .content__separate{
     display: flex;
     justify-content: space-between;
-    width: 15rem;
     margin-top: 1.5rem;
+    width: 15rem;
 }
 
 .content__separate--hr{
-    width: 38%;
     border-color: rgba(219, 219, 219, 0.3);
+    width: 38%;
 }
 
 .content__separate--or{
@@ -45,38 +46,40 @@
     margin-top: 3px;
 }
 
+/* Formulário */
+
 .form{
     margin-top: 1rem;
 }
 
 .form__area{
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .form__area--box{
     background-color: #fafafa;
-    border-radius: 3px;
     border: 1px solid #dbdbdb;
-    width: 14rem;
+    border-radius: 3px;
     display: flex;
+    width: 14rem;
 }
 
 .form__area--box-1{
     background-color: #fafafa;
-    border-radius: 3px;
     border: 1px solid #dbdbdb;
-    width: 14rem;
+    border-radius: 3px;
     display: flex;
+    width: 14rem;
 }
 
 .form__area--box-2{
     background-color: #fafafa;
     border-radius: 3px;
     border: 1px solid #dbdbdb;
-    width: 14rem;
     display: flex;
+    width: 14rem;
 }
 
 div.form__area--box:nth-child(2){
@@ -98,47 +101,47 @@ div.form__area--box-2:nth-child(2){
 }
 
 .form__area--box_legend-title{
-    padding: .2rem 0 0 0.5rem;
-    font-size: 11px;
     color: #8e8e8e;
+    font-size: 11px;
+    padding: .2rem 0 0 0.5rem;
 }
 
 .form__area--box_legend-input-1{
-    padding: .2rem 0.5rem;
-    border: none;
     background-color: #fafafa;
+    border: none;
+    padding: .2rem 0.5rem;
     width: 100%;
 }
 
 .form__area--box_legend-input-2{
-    padding: .2rem 0.5rem;
-    border: none;
     background-color: #fafafa;
+    border: none;
+    padding: .2rem 0.5rem;
     width: 100%;
 }
 
 .form__area--box_legend-input-3{
-    padding: .7rem 0.5rem;
-    border: none;
     background-color: #fafafa;
+    border: none;
+    padding: .7rem 0.5rem;
     width: 100%;
 }
 
 .form__area--box_legend-input-3::placeholder{
-    font-size: 11.7px;
     color: #8e8e8e;
+    font-size: 11.7px;
 }
 
 .form__area--box_legend-input-4{
-    padding: .7rem 0.5rem;
-    border: none;
     background-color: #fafafa;
+    border: none;
+    padding: .7rem 0.5rem;
     width: 100%;
 }
 
 .form__area--box_legend-input-4::placeholder{
-    font-size: 11.7px;
     color: #8e8e8e;
+    font-size: 11.7px;
 }
 
 .division{
@@ -151,19 +154,19 @@ div.form__area--box-2:nth-child(2){
 
 .form__area--box_legend-button{
     background-color: #fafafa;
-    line-height: 2rem;
-    padding: 0 .5rem;
-    font-style: none;
-    text-decoration: none;
     color: black;
     cursor: pointer;
+    font-style: none;
+    line-height: 2rem;
+    padding: 0 .5rem;
+    text-decoration: none;
 }
 
 .form__forgotPassword{
-    margin-top: 1rem;
-    width: 90%;
     display: flex;
     justify-content: flex-end;
+    margin-top: 1rem;
+    width: 90%;
 }
 
 .form__forgotPassword--link{
@@ -176,15 +179,17 @@ div.form__area--box-2:nth-child(2){
 }
 
 .form__login--submit{
-    width: 100%;
-    border: none;
     background-color: #0095f6;
-    padding: .5rem 1rem;
-    color: white;
+    border: none;
     border-radius: 8px;
-    margin-top: 1.5rem;
+    color: white;
     cursor: pointer;
+    margin-top: 1.5rem;
+    padding: .5rem 1rem;    
+    width: 100%;
 }
+
+/* Botão de registro */ 
 
 .register{
     margin-top: 2.5rem;
@@ -196,25 +201,29 @@ div.form__area--box-2:nth-child(2){
 
 .register__link{
     color: #0095f6;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
 }
 
+/* Sub logo da Meta */
+
 .sublogo{
-    width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 7.3rem;
+    width: 100%;
 }
 
 .sublogo__img{
-    width: 3.25rem;
     height: 1.64rem;
+    width: 3.25rem;
 }
+
+/* Responsividade */ 
 
 @media screen and (min-width: 1024px){
     .form__area--box_legend-input-3::placeholder{
-        font-size: 11px;
         color: #8e8e8e;
+        font-size: 11px;
     }
 }
