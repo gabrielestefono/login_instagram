@@ -58,11 +58,23 @@
     background-color: #fafafa;
     border-radius: 3px;
     border: 1px solid #dbdbdb;
-    width: 90%;
+    width: 14rem;
     display: flex;
 }
 
-div.form__area--box:nth-child(2){
+.form__area--box-1{
+    background-color: #fafafa;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    width: 14rem;
+    display: flex;
+}
+
+div.form__area--box-1:nth-child(2){
+    margin-top: .5rem;
+}
+
+div.form__area--box-1:nth-child(2){
     margin-top: .5rem;
 }
 
@@ -91,11 +103,35 @@ div.form__area--box:nth-child(2){
     background-color: #fafafa;
 }
 
+.form__area--box_legend-input-3{
+    padding: .7rem 0.5rem;
+    border: none;
+    background-color: #fafafa;
+    width: 100%;
+}
+
+.form__area--box_legend-input-3::placeholder{
+    font-size: 11.7px;
+    color: #8e8e8e;
+}
+
+.form__area--box_legend-input-4{
+    padding: .7rem 0.5rem;
+    border: none;
+    background-color: #fafafa;
+    width: 100%;
+}
+
+.form__area--box_legend-input-4::placeholder{
+    font-size: 11.7px;
+    color: #8e8e8e;
+}
+
 .division{
     width: calc(100% - 2rem);
 }
 
-.form__area--box_legend-input-1:focus,.form__area--box_legend-input-2:focus{
+.form__area--box_legend-input-1:focus,.form__area--box_legend-input-2:focus, .form__area--box_legend-input-3:focus, .form__area--box_legend-input-4:focus{
     outline: none;
 }
 
