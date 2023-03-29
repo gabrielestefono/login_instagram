@@ -70,7 +70,7 @@
     display: flex;
 }
 
-div.form__area--box-1:nth-child(2){
+div.form__area--box:nth-child(2){
     margin-top: .5rem;
 }
 
