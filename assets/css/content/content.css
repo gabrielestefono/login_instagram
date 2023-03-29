@@ -70,11 +70,23 @@
     display: flex;
 }
 
+.form__area--box-2{
+    background-color: #fafafa;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    width: 14rem;
+    display: flex;
+}
+
 div.form__area--box:nth-child(2){
     margin-top: .5rem;
 }
 
 div.form__area--box-1:nth-child(2){
+    margin-top: .5rem;
+}
+
+div.form__area--box-2:nth-child(2){
     margin-top: .5rem;
 }
 
@@ -101,13 +113,14 @@ div.form__area--box-1:nth-child(2){
     padding: .2rem 0.5rem;
     border: none;
     background-color: #fafafa;
+    width: 100%;
 }
 
 .form__area--box_legend-input-3{
     padding: .7rem 0.5rem;
     border: none;
     background-color: #fafafa;
-    width: 100%;
+    width: 70%;
 }
 
 .form__area--box_legend-input-3::placeholder{

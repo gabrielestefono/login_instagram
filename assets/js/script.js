@@ -13,7 +13,12 @@ span2.id = 'span2'
 
 
 // Criando Elemento botão para visualizar a senha, caso necessite
-let botao = '<a href="" class="form__area--box_legend-button">Mostrar</a>';
+let botao = document.createElement('a');'<a href="" class="form__area--box_legend-button">Mostrar</a>';
+botao.className = 'form__area--box_legend-button';
+botao.textContent = 'Mostrar';
+botao.href = "#";
+botao.id = 'entrar';
+
 
 
 // Criando todas as váriáveis necessárias através do DOM
@@ -45,14 +50,18 @@ let mudaCaixaSenha = ()=>{
         pass.className = 'form__area--box_legend-input-4';
         legenda2.removeChild(span2)
     }else{
-        box2.className = 'form__area--box';
+        box2.className = 'form__area--box-2';
         legenda2.insertBefore(span2, pass);
         pass.className = 'form__area--box_legend-input-2';
+        box2.appendChild(botao);        
     }
 }
 
-// Criando função para botão de visualização da senha, caso o usuário queira
+let mudabotao = ()=>{
+    console.log('Tá indo')
+}
 
 // Chamada de eventos
 email.addEventListener('input', mudaCaixaEmail);
 pass.addEventListener('input', mudaCaixaSenha);
+botao.addEventListener('click', mudabotao)
