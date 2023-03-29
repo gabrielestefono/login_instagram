@@ -1,15 +1,17 @@
 // Criando Elemento span para título do espaço de inserção do email
 let span1 = document.createElement('span');
 span1.className = 'form__area--box_legend-title';
-span1.textContent = 'Telefone, nome de usuário ou email'
+span1.textContent = 'Telefone, nome de usuário ou email';
 span1.id = 'span-1';
+
 
 
 // Criando Elemento span para título do espaço de inserção da senha
 let span2 = document.createElement('span');'<span class="form__area--box_legend-title">Senha</span>';
 span2.className = 'form__area--box_legend-title';
 span2.textContent = 'Senha';
-span2.id = 'span2'
+span2.id = 'span2';
+
 
 
 // Criando Elemento botão para visualizar a senha, caso necessite
@@ -30,12 +32,13 @@ let email = document.getElementById('email');
 let pass = document.getElementById('pass');
 
 
+
 // Criando todas as funções necessárias para alternar entre placeholder e título com uma certa fluidez
 let mudaCaixaEmail = ()=>{
     if(email.value == ''){
         box1.className = 'form__area--box-1';
         email.className = 'form__area--box_legend-input-3';
-        legenda1.removeChild(span1)
+        legenda1.removeChild(span1);
     }else{
         box1.className = 'form__area--box';
         legenda1.insertBefore(span1, email);
@@ -44,11 +47,14 @@ let mudaCaixaEmail = ()=>{
 }
 
 
+
 let mudaCaixaSenha = ()=>{
     if(pass.value == ''){
         box2.className = 'form__area--box-1';
         pass.className = 'form__area--box_legend-input-4';
-        legenda2.removeChild(span2)
+        legenda2.removeChild(span2);
+        box2.removeChild(botao);
+
     }else{
         box2.className = 'form__area--box-2';
         legenda2.insertBefore(span2, pass);
@@ -57,9 +63,23 @@ let mudaCaixaSenha = ()=>{
     }
 }
 
+
+
+// Criando a função que mostra a senha para o usuário
+
+
+
 let mudabotao = ()=>{
-    console.log('Tá indo')
+    if(botao.textContent == 'Mostrar'){
+        botao.textContent = 'Ocultar';
+        pass.type = 'text';
+    }else{
+        botao.textContent = 'Mostrar';
+        pass.type = 'password';
+    }
+
 }
+
 
 // Chamada de eventos
 email.addEventListener('input', mudaCaixaEmail);
