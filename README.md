@@ -19,7 +19,7 @@ Pronto! Agora você deve estar visualizando o website localmente no seu navegado
 
 ## Como usar:
 
-A página do projeto é a layout para criação/seleção de habilidades de um personagem para um jogo, onde você deve mudar as estatísticas para que o personagem tenha um balanceamento desejável.
+A página em si, é apenas uma cópia da página inicial do instagram, a ideia era tentar deixar o mais parecido possível, tive problemas com a fonte utilizada pelo instagram, pois não é encontrada no google fonts ou outros sites parecidos, provavelmente é exclusiva.
 
 ## Contato
 
